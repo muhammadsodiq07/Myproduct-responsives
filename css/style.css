@@ -509,7 +509,16 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .support__text {
+    width: 100%;
+  }
 
+  .user__img-avater {
+    width: 25%;
+  }
+  .user__text {
+    width: 100%;
+  }
 }
 
 
@@ -519,8 +528,8 @@ body {
   }
 
   .hero__pic {
-    width: 450px;
-    height: 400px;
+    width: 100%;
+    height: auto;
   }
 
   .hero__title {
@@ -566,14 +575,16 @@ body {
 
 @media screen and (max-width: 576px) {
   .hero__pic {
-    width: 450px;
-    height: 405px;
+    width: 100%;
+    height: auto;
   }
 
   .managment__img {
-    width: 460px;
-    height: 400px;
+    padding-top: 600px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
+    margin-left: 20px;
   }
 
   .managment__main-div {
@@ -584,18 +595,22 @@ body {
   }
 
   .managment__desc {
-    width: 350px;
+    width: 100%;
     align-items: center;
   }
-
+  .btn__holder {
+    margin-right: 50px;
+    margin-top: -100px;
+  }
   .support__pic {
-    width: 440px;
-    height: 400px;
+    padding-right: 25px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
   }
 
   .support__decs {
-    width: 330px;
+    width: 100%;
   }
 
   .support__main {
@@ -606,37 +621,32 @@ body {
   }
 
   .documentssssss {
-    width: 460px;
-    height: 380px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
   }
-
 
 }
 
 
 
 
-
-
-
-
-
-
-
-
 @media screen and (max-width: 350px) {
   .hero__pic {
-    width: 350px;
-    height: 300px;
+    width: 100%;
+    height: auto;
+    margin-left: 25px;
   }
 
   .hero__title {
-    max-width: 280px;
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 10px;
   }
 
   .hero__text {
-    width: 250px;
+    width: 100%;
+    margin-left: 25px; 
   }
 
   .hero__box {
@@ -649,11 +659,12 @@ body {
 
   .hero__btn {
     margin-bottom: 20px;
+    margin-left: 45px;
   }
 
   .hero__play {
     position: relative;
-    right: 20px;
+    right: 0px;
   }
 
   .built__title {
@@ -665,10 +676,9 @@ body {
     left: 50px;
     top: 50px;
   }
-
   .managment__img {
-    width: 300px;
-    height: 250px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     margin-right: 30px;
   }
@@ -686,8 +696,8 @@ body {
   }
 
   .support__pic {
-    width: 300px;
-    height: 280px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     margin-right: 40px;
   }
@@ -704,8 +714,9 @@ body {
   }
 
   .documentssssss {
-    width: 300px;
-    height: 230px;
+    padding-top: 0;
+    width: 100%;
+    height: auto;
     object-fit: cover;
   }
 
