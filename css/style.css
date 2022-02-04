@@ -559,3 +559,80 @@ body {
     object-fit: cover;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .hero__pic {
+    width: 350px;
+    height: 300px;
+  }
+  .hero__title {
+    max-width: 280px;
+  }
+  .hero__text {
+    width: 250px;
+  }
+  .hero__box {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+  }
+  .hero__btn {
+    margin-bottom: 20px;
+  }
+  .hero__play {
+    position: relative;
+    right: 20px;
+  }
+  .built__title {
+    width: 300px;
+  }
+  .built__btn {
+    position: relative;
+    left: 50px;
+    top: 50px;
+  } 
+  .managment__img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 30px;
+  }
+
+  .managment__main-div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .managment__desc {
+    width: 280px;
+    align-items: center;
+  }
+
+  .support__pic {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+    margin-right: 40px;
+  }
+
+  .support__decs {
+    width: 250px;
+  }
+
+  .support__main {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .documentssssss {
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+  }
+}
