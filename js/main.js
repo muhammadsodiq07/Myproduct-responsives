@@ -10,7 +10,7 @@ let elHeaderLogo = document.querySelector('.header__logobox');
 elBtn.addEventListener('click', function(){
   elNav.classList.toggle('show');
   elBtnToggle.classList.toggle('active')
-  elHeaderLogo.classList.add('light')
+  elHeaderLogo.classList.toggle('light')
 })
 
 
