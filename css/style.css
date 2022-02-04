@@ -594,7 +594,7 @@ body {
     justify-content: center;
   }
   .managment {
-    margin-top: 150px
+    margin-top: 0px
   }
   .managment__desc {
     width: 100%;
@@ -710,7 +710,9 @@ body {
     width: 280px;
     align-items: center;
   }
-
+  .managment {
+    padding-top: 0;
+  }
   .support__pic {
     width: 100%;
     height: auto;
