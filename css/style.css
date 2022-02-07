@@ -39,7 +39,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--body-color);
-  min-height: 1000vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
